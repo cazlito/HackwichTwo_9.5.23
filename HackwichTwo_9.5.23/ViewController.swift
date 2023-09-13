@@ -15,11 +15,10 @@ class ViewController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myThirdVariable = myFirstVariable + mySecondVariable
-        print(myThirdVariable)
     }
 
     @IBAction func anotherButton(_ sender: Any) {
+        var myThirdVariable = myFirstVariable + mySecondVariable
         print(myThirdVariable)
     }
     
