@@ -8,6 +8,8 @@
 import UIKit
 
 class secondViewController: UIViewController {
+    @IBOutlet weak var firstLabel: UILabel!
+    
     override func viewDidLoad() {
     super.viewDidLoad()
         
@@ -16,5 +18,8 @@ class secondViewController: UIViewController {
     @IBAction func changeColor(_ sender: Any) {
         //when button is press it becomes minty 
         self.view.backgroundColor = UIColor.systemMint
+        self.firstLabel.text = "Oh no!"
+        self.firstLabel.textColor = UIColor.green
+        
     }
 }
