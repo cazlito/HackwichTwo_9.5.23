@@ -12,20 +12,17 @@ class ViewController: UIViewController {
     var myFirstVariable = "hello i am string 1"
     var mySecondVariable = " hi im string 2"
     var myThirdVariable = ""
-   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    @IBAction func anotherButton(_ sender: Any) {
-        var myThirdVariable = myFirstVariable + mySecondVariable
-        print(myThirdVariable)
-    }
     
-    @IBAction func pressMeButton(_ sender: Any) {
-        print("Hello world")
-    }
+    @IBAction func anotherButton(_ sender: Any) {
+     var myThirdVariable = myFirstVariable + mySecondVariable
+     print(myThirdVariable)
+     }
+     
+     @IBAction func pressMeButton(_ sender: Any) {
+     print("Hello world")
+     }
 }
-
-
-

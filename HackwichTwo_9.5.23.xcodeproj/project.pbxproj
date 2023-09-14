@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		740B4E7E2AA7EC6000B126C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B4E7D2AA7EC6000B126C8 /* AppDelegate.swift */; };
 		740B4E802AA7EC6000B126C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B4E7F2AA7EC6000B126C8 /* SceneDelegate.swift */; };
 		740B4E822AA7EC6000B126C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B4E812AA7EC6000B126C8 /* ViewController.swift */; };
 		740B4E852AA7EC6000B126C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740B4E832AA7EC6000B126C8 /* Main.storyboard */; };
@@ -17,6 +16,7 @@
 		740B4E9F2AA7EC6200B126C8 /* HackwichTwo_9_5_23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B4E9E2AA7EC6200B126C8 /* HackwichTwo_9_5_23UITests.swift */; };
 		740B4EA12AA7EC6200B126C8 /* HackwichTwo_9_5_23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B4EA02AA7EC6200B126C8 /* HackwichTwo_9_5_23UITestsLaunchTests.swift */; };
 		74E865622AB15A9600C3C2D2 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E865612AB15A9600C3C2D2 /* secondViewController.swift */; };
+		74E865632AB16B9500C3C2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B4E7D2AA7EC6000B126C8 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,9 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E865632AB16B9500C3C2D2 /* AppDelegate.swift in Sources */,
 				74E865622AB15A9600C3C2D2 /* secondViewController.swift in Sources */,
 				740B4E822AA7EC6000B126C8 /* ViewController.swift in Sources */,
-				740B4E7E2AA7EC6000B126C8 /* AppDelegate.swift in Sources */,
 				740B4E802AA7EC6000B126C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
